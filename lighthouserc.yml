@@ -1,0 +1,11 @@
+ci:
+  collect:
+    url: "http://localhost:4200"
+    numberOfRuns: 3
+    settings:
+      emulatedFormFactor: none
+      throttlingMethod: devtools
+  upload:
+    target: lhci
+    serverBaseUrl: 'http://localhost:9001/'
+    token: '11d87632-7fd7-46c3-a252-3be547a2bb30'
